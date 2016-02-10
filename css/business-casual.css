@@ -5,12 +5,12 @@
  */
 
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/logo.png') no-repeat center top #333;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: url('../img/bg-logo.png') no-repeat center top #222;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 h1,
@@ -189,4 +189,10 @@ footer p {
         display: table;
         clear: both;
     }
+}
+
+table,
+th,
+td {
+  text-align: center;
 }
